@@ -58,12 +58,12 @@ public class XmlParser {
         String type = element.getPath();
         String xml = element.asXML();
         int m = 0, len = typeList.size(), index1 = typeList.indexOf(type);
-        
+        /*
         if(index1 == -1) {
         	System.out.println("type: " + type);
         	return;
         }
-        
+        */
         ft[index1]++;
         
         int[] exLabel = new int[len];
